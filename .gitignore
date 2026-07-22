@@ -1,0 +1,25 @@
+# Environment
+.env
+
+# Virtual environment
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Raw datasets
+data/raw/
+
+# Large generated datasets
+data/processed/cves_cleaned.csv
+data/processed/cves_merged.csv
